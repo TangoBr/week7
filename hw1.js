@@ -70,3 +70,5 @@ arrow3 ()
 for ( let i = 0; i < empty.length; i++ ){
     console.log(empty[i]);
 }
+
+let div = document.querySelector(div);
