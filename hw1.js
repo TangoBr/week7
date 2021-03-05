@@ -57,3 +57,16 @@ const arrow2 = (str) => {
     console.log(`any parameter`)
 }
 arrow2 ();
+// wont let me just put numbers
+const arrow3 = (a=2,b=0) => {
+    console.log(2,0)
+}
+arrow3 ()
+
+    setTimeout(() => {
+        alert(`you died`)
+    }, 3000);
+
+for ( let i = 0; i < empty.length; i++ ){
+    console.log(empty[i]);
+}
